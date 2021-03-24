@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:paddingTop="20dp"
+    android:paddingRight="2dp"
+    android:paddingLeft="2dp"
+    android:paddingBottom="20dp">
+
+    <TableRow
+        android:id="@+id/editTableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        >
+        <TextView
+            android:id="@+id/editContactScreen"
+            android:layout_width="200dp"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:textColor="@color/purple_200"
+            android:textSize="30dp"
+            android:text="@string/edit_contact_screen"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/editTableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/editContactText"
+            android:editable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:text="@string/edit_contact_text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/editTableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edited_name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"/>
+
+    </TableRow>
+
+</TableLayout>

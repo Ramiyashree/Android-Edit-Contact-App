@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Project1_CS478</string>
+<string name="welcome">WELCOME!!</string>
+<string name="edit_contact">Edit Contact</string>
+<string name="view_contact">View Contact</string>
+<string name="edit_contact_text">Enter Contact Name</string>
+<string-array name="stateList">
+    <item >Massachusetts</item>
+    <item >Connecticut</item>
+    <item >Rhode Island</item>
+    <item >Vermont</item>
+    <item >New Hampshire</item>
+    <item >Maine</item>
+    <item >Amazing New England Patriots</item>
+</string-array>
+<string name="edit_contact_screen">Edit Contact</string>
+<string name="Connecticut_URI">http://www.ct.gov</string>
+<string name="Main_URI">http://www.maine.gov/portal/index.html</string>
+
+</resources>
